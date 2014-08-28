@@ -12,15 +12,33 @@ Designdoc
 Bit layout
 ---
 
-#### Item id (64 bit)
-
-* device shard token - 10 bit
 * timestmap - 41 bit 
-  2. Start from 2014.01.01 00:00 UST
-  3. (Will overflow in 69 years)
+  2. Start from 1 January 2001, GMT
 * sequence - 12 bit (safe for 4096 id generating / millisecond)
+* shard token - 10 bit
 
-#### Device id (64 bit)
+Spec
+---
 
-* timestamp - 41 bit
-* sequence - 32 bit
+```objc
+describe(@"GSGuise", ^{
+    describe(@"+gid", ^{
+        unsigned long long int gid = [GSGuise gid];
+        
+        it(@"Should not return same value as before", ^{
+            expect([GSGuise gid]).notTo.equal(gid);
+        });
+        
+        it(@"Should be larger than former value after millisecond wait", ^{
+            sleep(0.001);
+            expect([GSGuise gid]).to.beGreaterThan(gid);
+        });
+        
+        it(@"mod is always same", ^{
+            int mod = 8;
+            expect([GSGuise gid] % mod).to.equal(gid % mod);
+        });
+    });
+});
+
+```
