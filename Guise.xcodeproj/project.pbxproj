@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4CE964C19AF80AB0072575F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CE964B19AF80AB0072575F /* Foundation.framework */; };
+		D4CE964E19AF80AB0072575F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CE964D19AF80AB0072575F /* CoreGraphics.framework */; };
+		D4CE965019AF80AB0072575F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CE964F19AF80AB0072575F /* UIKit.framework */; };
+		D4CE965619AF80AB0072575F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4CE965419AF80AB0072575F /* InfoPlist.strings */; };
+		D4CE965819AF80AB0072575F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CE965719AF80AB0072575F /* main.m */; };
+		D4CE965C19AF80AB0072575F /* GSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CE965B19AF80AB0072575F /* GSAppDelegate.m */; };
+		D4CE965F19AF80AB0072575F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CE965D19AF80AB0072575F /* Main.storyboard */; };
+		D4CE966219AF80AB0072575F /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CE966119AF80AB0072575F /* GSViewController.m */; };
+		D4CE966419AF80AB0072575F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CE966319AF80AB0072575F /* Images.xcassets */; };
+		D4CE966B19AF80AB0072575F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CE966A19AF80AB0072575F /* XCTest.framework */; };
+		D4CE966C19AF80AB0072575F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CE964B19AF80AB0072575F /* Foundation.framework */; };
+		D4CE966D19AF80AB0072575F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CE964F19AF80AB0072575F /* UIKit.framework */; };
+		D4CE967519AF80AB0072575F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4CE967319AF80AB0072575F /* InfoPlist.strings */; };
+		D4CE967719AF80AB0072575F /* GuiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CE967619AF80AB0072575F /* GuiseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4CE966E19AF80AB0072575F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4CE964019AF80AB0072575F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4CE964719AF80AB0072575F;
+			remoteInfo = Guise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4CE964819AF80AB0072575F /* Guise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CE964B19AF80AB0072575F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4CE964D19AF80AB0072575F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4CE964F19AF80AB0072575F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4CE965319AF80AB0072575F /* Guise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Guise-Info.plist"; sourceTree = "<group>"; };
+		D4CE965519AF80AB0072575F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4CE965719AF80AB0072575F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4CE965919AF80AB0072575F /* Guise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Guise-Prefix.pch"; sourceTree = "<group>"; };
+		D4CE965A19AF80AB0072575F /* GSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSAppDelegate.h; sourceTree = "<group>"; };
+		D4CE965B19AF80AB0072575F /* GSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSAppDelegate.m; sourceTree = "<group>"; };
+		D4CE965E19AF80AB0072575F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4CE966019AF80AB0072575F /* GSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSViewController.h; sourceTree = "<group>"; };
+		D4CE966119AF80AB0072575F /* GSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSViewController.m; sourceTree = "<group>"; };
+		D4CE966319AF80AB0072575F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4CE966919AF80AB0072575F /* GuiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CE966A19AF80AB0072575F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D4CE967219AF80AB0072575F /* GuiseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuiseTests-Info.plist"; sourceTree = "<group>"; };
+		D4CE967419AF80AB0072575F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4CE967619AF80AB0072575F /* GuiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuiseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4CE964519AF80AB0072575F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE964E19AF80AB0072575F /* CoreGraphics.framework in Frameworks */,
+				D4CE965019AF80AB0072575F /* UIKit.framework in Frameworks */,
+				D4CE964C19AF80AB0072575F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE966619AF80AB0072575F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE966B19AF80AB0072575F /* XCTest.framework in Frameworks */,
+				D4CE966D19AF80AB0072575F /* UIKit.framework in Frameworks */,
+				D4CE966C19AF80AB0072575F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4CE963F19AF80AB0072575F = {
+			isa = PBXGroup;
+			children = (
+				D4CE965119AF80AB0072575F /* Guise */,
+				D4CE967019AF80AB0072575F /* GuiseTests */,
+				D4CE964A19AF80AB0072575F /* Frameworks */,
+				D4CE964919AF80AB0072575F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4CE964919AF80AB0072575F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE964819AF80AB0072575F /* Guise.app */,
+				D4CE966919AF80AB0072575F /* GuiseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4CE964A19AF80AB0072575F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE964B19AF80AB0072575F /* Foundation.framework */,
+				D4CE964D19AF80AB0072575F /* CoreGraphics.framework */,
+				D4CE964F19AF80AB0072575F /* UIKit.framework */,
+				D4CE966A19AF80AB0072575F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4CE965119AF80AB0072575F /* Guise */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE965A19AF80AB0072575F /* GSAppDelegate.h */,
+				D4CE965B19AF80AB0072575F /* GSAppDelegate.m */,
+				D4CE965D19AF80AB0072575F /* Main.storyboard */,
+				D4CE966019AF80AB0072575F /* GSViewController.h */,
+				D4CE966119AF80AB0072575F /* GSViewController.m */,
+				D4CE966319AF80AB0072575F /* Images.xcassets */,
+				D4CE965219AF80AB0072575F /* Supporting Files */,
+			);
+			path = Guise;
+			sourceTree = "<group>";
+		};
+		D4CE965219AF80AB0072575F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE965319AF80AB0072575F /* Guise-Info.plist */,
+				D4CE965419AF80AB0072575F /* InfoPlist.strings */,
+				D4CE965719AF80AB0072575F /* main.m */,
+				D4CE965919AF80AB0072575F /* Guise-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4CE967019AF80AB0072575F /* GuiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE967619AF80AB0072575F /* GuiseTests.m */,
+				D4CE967119AF80AB0072575F /* Supporting Files */,
+			);
+			path = GuiseTests;
+			sourceTree = "<group>";
+		};
+		D4CE967119AF80AB0072575F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE967219AF80AB0072575F /* GuiseTests-Info.plist */,
+				D4CE967319AF80AB0072575F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4CE964719AF80AB0072575F /* Guise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CE967A19AF80AB0072575F /* Build configuration list for PBXNativeTarget "Guise" */;
+			buildPhases = (
+				D4CE964419AF80AB0072575F /* Sources */,
+				D4CE964519AF80AB0072575F /* Frameworks */,
+				D4CE964619AF80AB0072575F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guise;
+			productName = Guise;
+			productReference = D4CE964819AF80AB0072575F /* Guise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4CE966819AF80AB0072575F /* GuiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CE967D19AF80AB0072575F /* Build configuration list for PBXNativeTarget "GuiseTests" */;
+			buildPhases = (
+				D4CE966519AF80AB0072575F /* Sources */,
+				D4CE966619AF80AB0072575F /* Frameworks */,
+				D4CE966719AF80AB0072575F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4CE966F19AF80AB0072575F /* PBXTargetDependency */,
+			);
+			name = GuiseTests;
+			productName = GuiseTests;
+			productReference = D4CE966919AF80AB0072575F /* GuiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4CE964019AF80AB0072575F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kaiinui;
+				TargetAttributes = {
+					D4CE966819AF80AB0072575F = {
+						TestTargetID = D4CE964719AF80AB0072575F;
+					};
+				};
+			};
+			buildConfigurationList = D4CE964319AF80AB0072575F /* Build configuration list for PBXProject "Guise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4CE963F19AF80AB0072575F;
+			productRefGroup = D4CE964919AF80AB0072575F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4CE964719AF80AB0072575F /* Guise */,
+				D4CE966819AF80AB0072575F /* GuiseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4CE964619AF80AB0072575F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE966419AF80AB0072575F /* Images.xcassets in Resources */,
+				D4CE965619AF80AB0072575F /* InfoPlist.strings in Resources */,
+				D4CE965F19AF80AB0072575F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE966719AF80AB0072575F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE967519AF80AB0072575F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4CE964419AF80AB0072575F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE965C19AF80AB0072575F /* GSAppDelegate.m in Sources */,
+				D4CE966219AF80AB0072575F /* GSViewController.m in Sources */,
+				D4CE965819AF80AB0072575F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE966519AF80AB0072575F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE967719AF80AB0072575F /* GuiseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4CE966F19AF80AB0072575F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4CE964719AF80AB0072575F /* Guise */;
+			targetProxy = D4CE966E19AF80AB0072575F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4CE965419AF80AB0072575F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CE965519AF80AB0072575F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4CE965D19AF80AB0072575F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CE965E19AF80AB0072575F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4CE967319AF80AB0072575F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CE967419AF80AB0072575F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4CE967819AF80AB0072575F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4CE967919AF80AB0072575F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4CE967B19AF80AB0072575F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guise/Guise-Prefix.pch";
+				INFOPLIST_FILE = "Guise/Guise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4CE967C19AF80AB0072575F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guise/Guise-Prefix.pch";
+				INFOPLIST_FILE = "Guise/Guise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4CE967E19AF80AB0072575F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Guise.app/Guise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guise/Guise-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GuiseTests/GuiseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D4CE967F19AF80AB0072575F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Guise.app/Guise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guise/Guise-Prefix.pch";
+				INFOPLIST_FILE = "GuiseTests/GuiseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4CE964319AF80AB0072575F /* Build configuration list for PBXProject "Guise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CE967819AF80AB0072575F /* Debug */,
+				D4CE967919AF80AB0072575F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CE967A19AF80AB0072575F /* Build configuration list for PBXNativeTarget "Guise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CE967B19AF80AB0072575F /* Debug */,
+				D4CE967C19AF80AB0072575F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4CE967D19AF80AB0072575F /* Build configuration list for PBXNativeTarget "GuiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CE967E19AF80AB0072575F /* Debug */,
+				D4CE967F19AF80AB0072575F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4CE964019AF80AB0072575F /* Project object */;
+}
